@@ -1,0 +1,28 @@
+{
+  "name": "curso-de-webpack",
+  "version": "1.0.0",
+  "description": "Este es un curso muy divertido.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack index.js bundle.js",
+    "build:local": "webpack",
+    "build:external": "webpack --config ./external/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegomonroy/Platzi-Curso-de-Webpack.git"
+  },
+  "keywords": [
+    "Webpack"
+  ],
+  "author": "Diego Fernando Monroy Muñoz <dmsoftwaresas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diegomonroy/Platzi-Curso-de-Webpack/issues"
+  },
+  "homepage": "https://github.com/diegomonroy/Platzi-Curso-de-Webpack#readme",
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  }
+}
